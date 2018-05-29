@@ -16,7 +16,9 @@ img {
      width: 25em;
     background-color: lightpink;
     margin: 0 auto;
-    font-family: 'Trebuchet MS'
+    text-align: justify;
+    font-family: 'Trebuchet MS';
+    
     
     }
 
@@ -27,3 +29,10 @@ background-color: darkcyan;
     }
 
 
+#postFullName {
+    font-size: 1.25em;
+    font-weight: bold;
+    font-family: 'kalam';
+    text-align: center;
+
+}

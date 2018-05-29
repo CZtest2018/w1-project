@@ -3,7 +3,7 @@
    //part1
     var firstName= document.getElementById("firstName").value;
     var lastName = document.getElementById("lastName").value;
-     var postFullName = firstName +''+ lastName;
+     var postFullName = firstName +' '+ lastName;
      document.getElementById("postFullName").innerHTML = postFullName;
     var address= document.getElementById("address").value;
     document.getElementById("postAddress").innerHTML= address;
@@ -15,9 +15,16 @@
 
     var numberArray = [age, phoneNumber];
 
-    for (var i=0, i<=100, i++)
+    for (var i=0; i< numberArray.length; i++)
     {
+        if (numberArray[i]<=100){
+            document.getElementById("postAge").innerHTML = "Age:" + age;
 
+        }
+
+        else if (numberArray[i]>100){
+    document.getElementById("postPhoneNumber").innerHTML = "Phone Number:" + phoneNumber;
+}
     }
 
 //document.getElementById("button").addEventListener("click", idCard);
