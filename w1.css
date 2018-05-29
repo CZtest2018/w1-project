@@ -1,0 +1,38 @@
+img {
+
+    width: 90px;
+    
+    height: 90px;
+    
+    float: left;
+    
+    }
+    
+    #idCard {
+    
+    border: 5px solid black;
+    
+    height: 14em;
+     width: 25em;
+    background-color: lightpink;
+    margin: 0 auto;
+    text-align: justify;
+    font-family: 'Trebuchet MS';
+    
+    
+    }
+
+    body {
+margin:0 auto;
+text-align:center;
+background-color: darkcyan;
+    }
+
+
+#postFullName {
+    font-size: 1.25em;
+    font-weight: bold;
+    font-family: 'kalam';
+    text-align: center;
+
+}
